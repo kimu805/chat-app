@@ -61,6 +61,25 @@
   height: 100px;
   background-color: #ffffff;
   padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-title{
+  font-size: 24px;
+  color: #333;
+  margin-top: 36px;
+}
+
+.header-button{
+  margin-top: 40px;
+}
+
+.header-button a{
+  text-decoration: none;
+  color: darkred;
+  border: 1px solid darkred;
+  padding: 20px;
 }
 
 /* messages*** ************************************/
