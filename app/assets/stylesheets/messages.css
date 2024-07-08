@@ -83,37 +83,41 @@
 }
 
 /* messages*** ************************************/
-.messages{
+
+.messages {
+  background-color: #FAFAFA;
   height: calc(100vh - 100px - 90px);
-  background-color: #fafafa;
   padding: 46px 40px 0;
   overflow: scroll;
 }
 
-.message{
-  margin-bottom: 40px;
+.message {
+  margin: 10px 0 0 0;
 }
 
-.message-info{
+.upper-message{
   display: flex;
-  padding-top: 10px;
-  margin-bottom: 10px;
 }
 
-.user-name{
+.message-user {
+  color: #434a54;
   font-size: 16px;
-  color: #434a54;
-  margin-right: 10px;
 }
 
-.created_at{
-  font-size: 12px;
+.message-date {
   color: #999;
+  font-size: 12px;
+  padding-left: 10px;
 }
 
-.message-content{
-  font-size: 14px;
+.lower-message {
+  margin-top: 10px;
+}
+
+.message-content {
   color: #434a54;
+  font-size: 14px;
+  margin-bottom: 40px;
 }
 
 /* form ********************************************/
