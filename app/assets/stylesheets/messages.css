@@ -117,27 +117,37 @@
 }
 
 /* form ********************************************/
-.form{
+.form {
+  background-color: #DDDDDD;
   height: 90px;
-  background-color: #dddddd;
   padding: 20px 40px;
   display: flex;
 }
 
-.form-box{
+.form-input {
+  background-color: white;
   display: flex;
   width: 100%;
-  background-color: white;
 }
 
-.text-field{
+.form-message {
+  border: none;
   height: 50px;
   width: 100%;
   padding-left: 10px;
-  border-style: none;
 }
 
-.form-image{
+.form-submit {
+  background-color: #38AEF0;
+  border: none;
+  color: white;
+  font-size: 16px;
+  height: 50px;
+  margin-left: 15px;
+  padding: 0 20px;
+}
+
+.form-image {
   font-size: 12px;
   background-color: lightblue;
   color: white;
@@ -147,16 +157,6 @@
   text-align: center;
 }
 
-.hidden{
+.hidden {
   display: none;
-}
-
-.submit-btn{
-  font-size: 16px;
-  color: white;
-  height: 50px;
-  padding: 0 20px;
-  background-color: #38aef0;
-  border-style: none;
-  margin-left: 15px;
 }
